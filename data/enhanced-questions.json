@@ -1,0 +1,230 @@
+[
+  {
+    "domain": "Threats, Attacks and Vulnerabilities",
+    "question": "Loại tấn công nào sử dụng kỹ thuật social engineering để lừa người dùng cung cấp thông tin nhạy cảm qua email giả mạo?",
+    "choices": ["Phishing", "Vishing", "Smishing", "Pharming", "Baiting"],
+    "answer": "Phishing"
+  },
+  {
+    "domain": "Threats, Attacks and Vulnerabilities",
+    "question": "Malware nào có khả năng tự sao chép và lây lan qua mạng mà không cần tệp host?",
+    "choices": ["Virus", "Worm", "Trojan", "Rootkit"],
+    "answer": "Worm"
+  },
+  {
+    "domain": "Threats, Attacks and Vulnerabilities",
+    "question": "Kỹ thuật nào được sử dụng để che giấu hoạt động độc hại bằng cách sửa đổi system calls và kernel?",
+    "choices": ["Rootkit", "Backdoor", "Logic bomb", "Spyware", "Adware"],
+    "answer": "Rootkit"
+  },
+  {
+    "domain": "Threats, Attacks and Vulnerabilities",
+    "question": "Loại tấn công DDoS nào sử dụng các thiết bị IoT bị nhiễm malware để tạo thành botnet?",
+    "choices": ["Volumetric attack", "Protocol attack", "Application layer attack", "Mirai botnet attack"],
+    "answer": "Mirai botnet attack"
+  },
+  {
+    "domain": "Threats, Attacks and Vulnerabilities",
+    "question": "Kỹ thuật nào cho phép attacker thực thi code độc hại bằng cách ghi đè return address trong stack?",
+    "choices": ["SQL injection", "Buffer overflow", "Cross-site scripting", "Directory traversal", "Command injection"],
+    "answer": "Buffer overflow"
+  },
+  {
+    "domain": "Threats, Attacks and Vulnerabilities",
+    "question": "Loại tấn công nào nhắm vào lỗ hổng trong ứng dụng web để thực thi script độc hại trên trình duyệt của victim?",
+    "choices": ["CSRF", "XSS", "SSRF", "XXE", "LDAP injection"],
+    "answer": "XSS"
+  },
+  {
+    "domain": "Identity and Access Management",
+    "question": "Mô hình kiểm soát truy cập nào dựa trên vai trò (role) của người dùng trong tổ chức?",
+    "choices": ["DAC", "MAC", "RBAC", "ABAC", "Rule-based AC"],
+    "answer": "RBAC"
+  },
+  {
+    "domain": "Identity and Access Management",
+    "question": "Giao thức nào được sử dụng phổ biến nhất cho Single Sign-On (SSO) trong môi trường web?",
+    "choices": ["LDAP", "Kerberos", "SAML", "OAuth", "RADIUS"],
+    "answer": "SAML"
+  },
+  {
+    "domain": "Identity and Access Management",
+    "question": "Trong Multi-Factor Authentication, yếu tố 'something you have' bao gồm:",
+    "choices": ["Password", "Fingerprint", "Smart card", "Voice recognition", "Retina scan"],
+    "answer": "Smart card"
+  },
+  {
+    "domain": "Identity and Access Management",
+    "question": "Giao thức nào được sử dụng để xác thực người dùng trong mạng Windows domain?",
+    "choices": ["NTLM", "Kerberos", "CHAP", "PAP", "EAP"],
+    "answer": "Kerberos"
+  },
+  {
+    "domain": "Identity and Access Management",
+    "question": "Khái niệm 'Principle of Least Privilege' có nghĩa là:",
+    "choices": [
+      "Người dùng có quyền truy cập tối đa",
+      "Người dùng chỉ có quyền tối thiểu cần thiết",
+      "Tất cả người dùng có quyền như nhau",
+      "Chỉ admin mới có quyền truy cập"
+    ],
+    "answer": "Người dùng chỉ có quyền tối thiểu cần thiết"
+  },
+  {
+    "domain": "Identity and Access Management",
+    "question": "Loại certificate nào được sử dụng để xác thực máy chủ web trong HTTPS?",
+    "choices": [
+      "User certificate",
+      "Server certificate",
+      "Code signing certificate",
+      "Email certificate",
+      "Root certificate"
+    ],
+    "answer": "Server certificate"
+  },
+  {
+    "domain": "Technologies and Tools",
+    "question": "Công cụ nào được sử dụng để quét lỗ hổng bảo mật trong mạng?",
+    "choices": ["Wireshark", "Nessus", "Metasploit", "John the Ripper"],
+    "answer": "Nessus"
+  },
+  {
+    "domain": "Technologies and Tools",
+    "question": "SIEM system chủ yếu được sử dụng để:",
+    "choices": ["Mã hóa dữ liệu", "Thu thập và phân tích log", "Quét malware", "Backup dữ liệu", "Quản lý patch"],
+    "answer": "Thu thập và phân tích log"
+  },
+  {
+    "domain": "Technologies and Tools",
+    "question": "Loại firewall nào hoạt động ở tầng application và có thể kiểm tra nội dung gói tin?",
+    "choices": ["Packet filtering firewall", "Stateful firewall", "Application firewall", "Circuit-level gateway"],
+    "answer": "Application firewall"
+  },
+  {
+    "domain": "Technologies and Tools",
+    "question": "IDS (Intrusion Detection System) hoạt động theo cách nào?",
+    "choices": [
+      "Chặn traffic độc hại",
+      "Chỉ phát hiện và cảnh báo",
+      "Mã hóa traffic",
+      "Quản lý user access",
+      "Backup dữ liệu"
+    ],
+    "answer": "Chỉ phát hiện và cảnh báo"
+  },
+  {
+    "domain": "Technologies and Tools",
+    "question": "Công nghệ nào được sử dụng để tạo mạng riêng ảo qua Internet?",
+    "choices": ["VLAN", "VPN", "NAT", "DHCP", "DNS"],
+    "answer": "VPN"
+  },
+  {
+    "domain": "Risk Management",
+    "question": "Trong risk assessment, khái niệm 'likelihood' đề cập đến:",
+    "choices": [
+      "Mức độ thiệt hại",
+      "Xác suất xảy ra",
+      "Chi phí khắc phục",
+      "Thời gian recovery",
+      "Số lượng asset bị ảnh hưởng"
+    ],
+    "answer": "Xác suất xảy ra"
+  },
+  {
+    "domain": "Risk Management",
+    "question": "Chiến lược risk response nào bao gồm việc chuyển giao rủi ro cho bên thứ ba?",
+    "choices": ["Risk acceptance", "Risk avoidance", "Risk mitigation", "Risk transference"],
+    "answer": "Risk transference"
+  },
+  {
+    "domain": "Risk Management",
+    "question": "BIA (Business Impact Analysis) chủ yếu được sử dụng để:",
+    "choices": [
+      "Đánh giá lỗ hổng bảo mật",
+      "Xác định tác động của sự cố đến business",
+      "Quản lý user access",
+      "Mã hóa dữ liệu"
+    ],
+    "answer": "Xác định tác động của sự cố đến business"
+  },
+  {
+    "domain": "Risk Management",
+    "question": "RTO (Recovery Time Objective) là:",
+    "choices": [
+      "Thời gian tối đa có thể chấp nhận để khôi phục",
+      "Lượng dữ liệu tối đa có thể mất",
+      "Chi phí khôi phục",
+      "Số lần backup trong ngày"
+    ],
+    "answer": "Thời gian tối đa có thể chấp nhận để khôi phục"
+  },
+  {
+    "domain": "Risk Management",
+    "question": "Vulnerability assessment khác với penetration testing ở điểm nào?",
+    "choices": [
+      "Vuln assessment chỉ tìm lỗ hổng, pen test khai thác lỗ hổng",
+      "Không có sự khác biệt",
+      "Pen test chỉ tìm lỗ hổng",
+      "Vuln assessment tốn kém hơn"
+    ],
+    "answer": "Vuln assessment chỉ tìm lỗ hổng, pen test khai thác lỗ hổng"
+  },
+  {
+    "domain": "Architecture and Design",
+    "question": "Trong secure network design, DMZ (Demilitarized Zone) được sử dụng để:",
+    "choices": ["Lưu trữ dữ liệu nhạy cảm", "Đặt các server public-facing", "Backup dữ liệu", "Quản lý user account"],
+    "answer": "Đặt các server public-facing"
+  },
+  {
+    "domain": "Architecture and Design",
+    "question": "Nguyên tắc 'Defense in Depth' có nghĩa là:",
+    "choices": ["Sử dụng một lớp bảo vệ mạnh", "Sử dụng nhiều lớp bảo vệ", "Chỉ dựa vào firewall", "Không cần backup"],
+    "answer": "Sử dụng nhiều lớp bảo vệ"
+  },
+  {
+    "domain": "Architecture and Design",
+    "question": "Load balancer chủ yếu được sử dụng để:",
+    "choices": ["Mã hóa traffic", "Phân phối traffic đến nhiều server", "Quét malware", "Backup dữ liệu"],
+    "answer": "Phân phối traffic đến nhiều server"
+  },
+  {
+    "domain": "Architecture and Design",
+    "question": "Trong cloud security, shared responsibility model có nghĩa là:",
+    "choices": [
+      "Cloud provider chịu trách nhiệm toàn bộ",
+      "Customer chịu trách nhiệm toàn bộ",
+      "Trách nhiệm được chia sẻ giữa provider và customer",
+      "Không ai chịu trách nhiệm"
+    ],
+    "answer": "Trách nhiệm được chia sẻ giữa provider và customer"
+  },
+  {
+    "domain": "Cryptography and PKI",
+    "question": "Thuật toán mã hóa nào là symmetric encryption?",
+    "choices": ["RSA", "AES", "ECC", "DSA", "Diffie-Hellman"],
+    "answer": "AES"
+  },
+  {
+    "domain": "Cryptography and PKI",
+    "question": "Trong PKI, Certificate Authority (CA) có vai trò:",
+    "choices": ["Mã hóa dữ liệu", "Cấp phát và quản lý digital certificate", "Quét malware", "Backup dữ liệu"],
+    "answer": "Cấp phát và quản lý digital certificate"
+  },
+  {
+    "domain": "Cryptography and PKI",
+    "question": "Hash function nào được coi là an toàn nhất hiện tại?",
+    "choices": ["MD5", "SHA-1", "SHA-256", "CRC32"],
+    "answer": "SHA-256"
+  },
+  {
+    "domain": "Cryptography and PKI",
+    "question": "Perfect Forward Secrecy (PFS) đảm bảo rằng:",
+    "choices": [
+      "Private key không bao giờ bị lộ",
+      "Session key cũ không thể giải mã traffic tương lai",
+      "Mã hóa mạnh hơn",
+      "Tốc độ mã hóa nhanh hơn"
+    ],
+    "answer": "Session key cũ không thể giải mã traffic tương lai"
+  }
+]
